@@ -3,7 +3,7 @@
 # 爬取
 进入有pipfile的那个文件的目录依次输入：
 ```batch
-pipenv shella
+pipenv shell
 scrapy crawl drama
 ```
 就可以在当前目录下看到的数据爬取保存在了'douban_drama.csv'文件下了。
