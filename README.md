@@ -1,7 +1,7 @@
 &ensp;&ensp;通过分析数据接口爬取豆瓣中评分9分以上的美剧的名字，评分，详情链接。并保存在文件'douban_drama.csv'中.✔
 
 # 爬取
-进入有pipfile的那个文件的目录在pipenv shell 之后输入：
+进入有pipfile的那个文件的目录激活虚拟环境 之后输入：
 ```batch
 scrapy crawl drama
 ```
